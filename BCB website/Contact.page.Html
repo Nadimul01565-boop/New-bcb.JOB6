@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Bangladesh Cricket Board</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+/* 🌈 Animated Gradient Background */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(270deg, #001f3f, #004aad, #00c6ff, #00ffcc);
+  background-size: 800% 800%;
+  animation: gradientBG 12s ease infinite;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Smooth Background Motion */
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+/* 🔰 Header */
+header {
+  text-align: center;
+  padding: 40px 15px 20px;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+header img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #00eaff;
+  box-shadow: 0 0 25px #00eaff;
+}
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #fff;
+  text-shadow: 0 0 10px #00eaff;
+}
+header nav a {
+  color: #e6faff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+header nav a:hover {
+  color: #00ffcc;
+  text-shadow: 0 0 12px #00ffcc;
+}
+
+/* 💎 Contact Section */
+.contact-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,255,204,0.3);
+  animation: fadeIn 1.2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #00ffcc;
+  text-shadow: 0 0 15px #00ffcc;
+}
+
+/* 🧾 Form Design */
+form label {
+  font-weight: 600;
+  color: #fff;
+}
+form input, form textarea {
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  transition: all 0.3s ease;
+}
+form input:focus, form textarea:focus {
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 0 12px #00eaff;
+  outline: none;
+}
+form button {
+  background: linear-gradient(90deg, #00c6ff, #00ffcc);
+  color: #000;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.3s ease;
+  box-shadow: 0 0 20px rgba(0,255,204,0.4);
+}
+form button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 40px rgba(0,255,204,0.8);
+}
+
+/* 📞 Contact Info */
+.contact-info {
+  text-align: center;
+  margin-top: 40px;
+}
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #e6faff;
+}
+.contact-info i {
+  color: #00ffcc;
+  margin-right: 8px;
+}
+
+/* ⚡ Footer */
+footer {
+  text-align: center;
+  padding: 25px 10px;
+  background: rgba(0,0,0,0.4);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  color: #cfeaf3;
+  font-size: 0.95rem;
+}
+footer strong {
+  color: #00ffcc;
+}
+footer a {
+  color: #00eaff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-shadow: 0 0 10px #00eaff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {font-size: 1.7rem;}
+  .contact-section {margin: 30px 15px; padding: 30px 20px;}
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsoVqejAmUo6m6AKjQ7vhzxYZCW-Jo3NsPQ&s" alt="BCB Logo">
+  <h1>Contact Bangladesh Cricket Board</h1>
+  <nav>
+    <a href="/NadimBCB.HTML">🏠 Home</a>
+   
+   
+</header>
+
+<!-- Contact Form -->
+<section class="contact-section">
+  <h2>Get in Touch</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" class="form-control" placeholder="Enter your full name">
+    </div>
+    <div class="mb-3">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" class="form-control" placeholder="Enter your email">
+    </div>
+    <div class="mb-3">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" class="form-control" placeholder="+880...">
+    </div>
+    <div class="mb-3">
+      <label for="message">Your Message</label>
+      <textarea id="message" rows="5" class="form-control" placeholder="Write your message here..."></textarea>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-lg">Send Message</button>
+    </div>
+  </form>
+
+  <div class="contact-info mt-4">
+    <p><i class="fa-solid fa-user"></i> <strong>Nadimul Islam</strong></p>
+    <p><i class="fa-solid fa-school"></i> Cumilla Polytechnic Institute</p>
+    <p><i class="fa-solid fa-phone"></i> +8801XXXXXXXXX</p>
+    <p><i class="fa-solid fa-envelope"></i> nadimul@example.com</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Bangladesh Cricket Board | Designed by <strong>Nadimul Islam</strong> |
+  <a href="index.html">Back to Home</a>
+</footer>
+
+</body>
+</html>
